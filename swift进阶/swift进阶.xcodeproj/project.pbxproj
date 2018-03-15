@@ -12,6 +12,12 @@
 		B40D5852203FB0B800191F71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B40D5850203FB0B800191F71 /* Main.storyboard */; };
 		B40D5854203FB0B800191F71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B40D5853203FB0B800191F71 /* Assets.xcassets */; };
 		B40D5857203FB0B800191F71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B40D5855203FB0B800191F71 /* LaunchScreen.storyboard */; };
+		B42664EA2040F749001C17F1 /* add.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42664E92040F749001C17F1 /* add.swift */; };
+		B42664EC2041627B001C17F1 /* 内建集合类型.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42664EB2041627B001C17F1 /* 内建集合类型.swift */; };
+		B43A4BDE204528CC00E8CC0A /* 自定义一个队列(FIFO).swift in Sources */ = {isa = PBXBuildFile; fileRef = B43A4BDD204528CC00E8CC0A /* 自定义一个队列(FIFO).swift */; };
+		B4417A7E204CE4A10038C586 /* 改进强制解包的错误信息.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4417A7D204CE4A10038C586 /* 改进强制解包的错误信息.swift */; };
+		B44809842047D2830031A610 /* 自定义的集合索引.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44809832047D2820031A610 /* 自定义的集合索引.swift */; };
+		B46D8887204944D700FFFDF3 /* 自定义运算符.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46D8886204944D700FFFDF3 /* 自定义运算符.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		B40D5853203FB0B800191F71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B40D5856203FB0B800191F71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B40D5858203FB0B800191F71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B42664E92040F749001C17F1 /* add.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = add.swift; sourceTree = "<group>"; };
+		B42664EB2041627B001C17F1 /* 内建集合类型.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "内建集合类型.swift"; sourceTree = "<group>"; };
+		B43A4BDD204528CC00E8CC0A /* 自定义一个队列(FIFO).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "自定义一个队列(FIFO).swift"; sourceTree = "<group>"; };
+		B4417A7D204CE4A10038C586 /* 改进强制解包的错误信息.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "改进强制解包的错误信息.swift"; sourceTree = "<group>"; };
+		B44809832047D2820031A610 /* 自定义的集合索引.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "自定义的集合索引.swift"; sourceTree = "<group>"; };
+		B46D8886204944D700FFFDF3 /* 自定义运算符.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "自定义运算符.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,12 @@
 			children = (
 				B40D584C203FB0B800191F71 /* AppDelegate.swift */,
 				B40D584E203FB0B800191F71 /* ViewController.swift */,
+				B46D8886204944D700FFFDF3 /* 自定义运算符.swift */,
+				B4417A7D204CE4A10038C586 /* 改进强制解包的错误信息.swift */,
+				B44809832047D2820031A610 /* 自定义的集合索引.swift */,
+				B43A4BDD204528CC00E8CC0A /* 自定义一个队列(FIFO).swift */,
+				B42664EB2041627B001C17F1 /* 内建集合类型.swift */,
+				B42664E92040F749001C17F1 /* add.swift */,
 				B40D5850203FB0B800191F71 /* Main.storyboard */,
 				B40D5853203FB0B800191F71 /* Assets.xcassets */,
 				B40D5855203FB0B800191F71 /* LaunchScreen.storyboard */,
@@ -137,7 +155,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B40D584F203FB0B800191F71 /* ViewController.swift in Sources */,
+				B44809842047D2830031A610 /* 自定义的集合索引.swift in Sources */,
+				B4417A7E204CE4A10038C586 /* 改进强制解包的错误信息.swift in Sources */,
+				B43A4BDE204528CC00E8CC0A /* 自定义一个队列(FIFO).swift in Sources */,
 				B40D584D203FB0B800191F71 /* AppDelegate.swift in Sources */,
+				B42664EC2041627B001C17F1 /* 内建集合类型.swift in Sources */,
+				B46D8887204944D700FFFDF3 /* 自定义运算符.swift in Sources */,
+				B42664EA2040F749001C17F1 /* add.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
